@@ -4,14 +4,11 @@
   "description": "App to help you find pets",
   "main": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
-    "format:check": "prettier --list-different \" src/**/*.{js,jsx,css,json}\"",
-    "lint": "eslint \" eslint src/**/*,{js,jsx}\"",
-    "dev": "parcel src/index.html",
-    "start": "./node_modules/parcel-bundler/bin/cli.js src/index.html",
-    "build": "parcel build src/index.html",
-    "heroku-postbuild": "parcel build src/index.html"
+    "test": "",
+    "start": "npm run dev",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html"
   },
   "author": "Alex Lee",
   "license": "Apache-2.0",
