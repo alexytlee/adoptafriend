@@ -2,7 +2,7 @@
   "name": "adopt-me",
   "version": "1.0.0",
   "description": "App to help you find pets",
-  "main": "src/App.js",
+  "main": "src/index.html",
   "scripts": {
     "test": "",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
