@@ -5,6 +5,7 @@
   "main": "src/index.html",
   "scripts": {
     "test": "",
+    "start": "npm run dev",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "dev": "parcel src/index.html"
